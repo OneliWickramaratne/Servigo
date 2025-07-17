@@ -5,6 +5,7 @@ import mongoose from "mongoose";
 //create schema for user
 const userSchema = new mongoose.Schema({
   
+    
     email :{
         type : String,
         required : true,
